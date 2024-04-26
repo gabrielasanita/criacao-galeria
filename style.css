@@ -35,3 +35,9 @@ body{
 .uma-foto figcaption img:hover{
     transform: scale(1.5)
 }
+
+.uma-foto figcaption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
