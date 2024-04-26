@@ -1,0 +1,34 @@
+
+body{
+    background-color: #232323;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: auto;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.uma-foto img{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+.uma-foto img:hover{
+    filter:grayscale(0)
+}
+
+.uma-foto figcaption img{
+    width: 30px;
+    height: 30px;
+}
+
+.uma-foto figcaption img:hover{
+    transform: scale(1.5)
+}
