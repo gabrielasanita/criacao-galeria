@@ -27,6 +27,7 @@ body{
 .uma-foto figcaption img{
     width: 30px;
     height: 30px;
+    filter: invert();
 }
 
 .uma-foto figcaption img:hover{
